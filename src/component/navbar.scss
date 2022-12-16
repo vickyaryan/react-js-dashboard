@@ -1,0 +1,30 @@
+.navbar{
+    .nav{
+  display: flex;
+  justify-content: space-between;
+  .search {
+    //background-color: #212121;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 8rem 1rem 1rem;
+    border-radius: 1rem;
+    svg {
+      color: #ffc107;
+    }
+  }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    flex-direction: column;
+    .title {
+      h1 {
+        span {
+          display: block;
+
+          margin: 1rem 0;
+          /* letter-spacing: 0; */
+        }
+      }
+    }
+  }
+}
+}
